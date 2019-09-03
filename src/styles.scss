@@ -1,0 +1,40 @@
+@import 'assets/scss/vars';
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    background: $bg;
+    color: $normal;
+
+    h2 {
+        font-weight: 200;
+        color: $normal;
+    } 
+    
+    .routing{
+
+        width: 100%; 
+        height: calc(100% -55px);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+    }
+
+    .container {
+
+        width: 100%;
+        padding: 15px;
+        margin: 0 auto;  
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+
+    }
+
+}

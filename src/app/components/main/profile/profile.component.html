@@ -1,0 +1,26 @@
+<div class="container">
+
+  <h2>Profile!</h2>
+
+</div>
+
+<div class="container">
+
+  <div *ngIf="datos">
+
+    <p><small><em>{{ datos.login }}</em></small></p>
+
+    <img [src]="datos.avatar_url" [alt]="datos.name">
+
+    <ul>
+
+      <li>{{ datos.name }}</li>
+      <li>{{ datos.bio }}</li>
+      <li>{{ datos.location }}</li>
+      <li><a [href]="datos.html_url" target="_blank">Link</a></li>
+
+    </ul> 
+    
+  </div>
+
+</div>
